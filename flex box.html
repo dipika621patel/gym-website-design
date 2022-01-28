@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item{
+            display: block;
+        }
+        .container
+        {
+          height:300px;
+          width:100%;
+          border:2px solid red;
+          display: flex;
+          /* flex-direction: row; (it is by defult)*/
+          /* flex-direction: column; */
+          /* flex-direction: row-reverse; */
+          /* flex-direction: column-reverse; */
+          /* flex-wrap:wrap; */
+          /* flex-wrap:wrap-reverse; */
+          /* flex-flow: row-reverse wrap-reverse; */
+          /* justify-content: center; */
+          /* justify-content: space-between; */
+          /* justify-content: space-evenly; */
+          /* justify-content: space-around; */
+         /* align-items: center; */
+         /* align-items: flex-end; */
+         /* align-items:flex-start; */
+         /* align-items:stretch; */
+        }
+        .item{
+            background-color: green;
+            border: 2px solid red;
+            margin: 2px;
+            padding: 3px;
+            width:100px;
+            height:100px;
+        }
+        #item1{
+            /* order:2; */
+            /* flex-grow: 3; */
+
+        }
+        
+        #item2{
+            /* flex-grow:4; */
+            flex-basis:200px;
+
+        }
+        
+        #item3{
+            flex-shrink: 2;
+
+        }
+        #item4{
+            /* align-self:flex-end; */
+            align-self:center;
+
+        }
+        
+    
+        </style>
+</head>
+<body>
+    <h1> this is flex box tutorial</h1>
+    <div class="container">
+    <div class="item" id="item1">first box</div>
+    <div class="item" id="item2">second box</div>
+    <div class="item" id="item3">third box</div>
+    <div class="item" id="item4">fourth box</div>
+    </div>
+</body>
+</html>

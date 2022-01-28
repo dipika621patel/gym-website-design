@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gyming website</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url("file:///C:/Users/Dell/Downloads/144463-dumbbell-female-fitness-free-clipart-hd.png");
+            background-repeat: no-repeat;
+            margin: auto;
+            height: 900px;
+            background-color: rgb(231 157 229);
+        }
+
+        .left {
+
+            display: inline-block;
+            position: absolute;
+            top: -7px;
+            left: -19px;
+        }
+
+
+        .right {
+            position: absolute;
+            right: 34px;
+            display: inline-block;
+            top: 10px;
+
+        }
+
+        #z1 {
+            position: fixed;
+            right: 106px;
+        }
+
+        #z2 {
+            position: fixed;
+            right: 106;
+            left: 1249px;
+        }
+
+        .center {
+            background-color: rgb(239 128 217);
+            display: block;
+            width: 50%;
+            margin: 21px auto;
+
+            position: fixed;
+            left: 348px;
+            top: -23px;
+
+
+        }
+
+        .navbar {
+
+            display: inline-block;
+
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 17px;
+            font-family: revert;
+        }
+
+        .navbar a {
+            color: black;
+            text-decoration: none;
+            padding: 20px 51px 16px 32px;
+        }
+
+        .navbar a:hover {
+            color: white;
+        }
+
+        .btn {
+            background-color: rgb(247, 0, 234);
+            border: 2px solid rgb(247, 0, 234);
+            cursor: pointer;
+            border-radius: 30px;
+            height: 28px;
+            width: 86px;
+        }
+
+        .btn:hover {
+            background-color: rgb(161, 102, 163);
+            color: white;
+        }
+
+        .pink {
+            text-decoration: bold;
+            text-align: right;
+            position: absolute;
+            top: 85px;
+            right: 488px;
+            font-size: 39px;
+            word-spacing: 9px;
+            cursor: pointer;
+            color: #6b0351;
+            position: absolute;
+            top: 80px;
+            z-index: -1;
+        }
+
+
+        .pink:hover {
+            color: azure;
+        }
+
+        .container {
+
+            margin: 23px;
+            padding: 23px 39px 18px 4px;
+            width: 400px;
+            position: absolute;
+            text-align: right;
+            top: 198px;
+            margin: auto;
+            left: 892px;
+            border-radius: 23px;
+            background-color: #ed69df;
+            color: #570426;
+            position: absolute;
+            top: 210px;
+            z-index: -1;
+        }
+
+
+        .form input {
+            position: relative;
+            right: 28px;
+            top: 2px;
+            bottom: 9px;
+            text-align: center;
+            display: inline-block;
+            width: 289px;
+            padding: 4px;
+            margin: 5px;
+            border: 2px solid #ae1bc1;
+            border-radius: 5px;
+            font-size: 14px;
+
+        }
+
+        .container button {
+            display: block;
+            margin: 5px 0px 0px 175px;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for -->
+        <div class="left">
+
+        </div>
+        <!-- center box for navigation bar -->
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness tricks</a></li>
+                <li><a href="#">Tranner</a></li>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn" id="z1"> Call us now </button>
+            <button class="btn" id="z2"> Email us </button>
+        </div>
+    </header>
+    <div class="pink">
+        <p><strong>Welcome in pink gym</strong></p>
+    </div>
+    <div class="container">
+        <h1>join the best gym in indore</h1>
+        <form action="noaction.php">
+
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your Email">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit</button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
